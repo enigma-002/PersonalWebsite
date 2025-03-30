@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Unicase:wght@300;400;500;600;700&family=DotGothic16&family=MonteCarlo&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.CSS">
+    <link rel="stylesheet" href="CSS/BlogStyle.CSS">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navigation Bar-->
+    <nav class ="navcontainer">
+
+        <div class = "navleft">
+                
+            <h4 class ="buttonHover" id="border"><a href="FrontPage.HTML#AboutMe">About Me</a></h4>
+            <h4 class ="buttonHover" id="border"><a href="Projects.HTML"> Projects</a></h4>
+        </div>
+
+        <div class = "navcenter">
+            <p><a href="FrontPage.HTML"><img src="images/Hidari_mitsudomoe.svg.png" alt="logo" ></a></p>
+        </div>
+
+        <div class = "navright">
+            <h4 class ="buttonHover" id="border"><a href="Skills.HTML"> Skills</a></h4>
+            <h4 class ="buttonHover" id="border"><a href="Blog.HTML"> Blog</a></h4>
+        </div>
+
+    </nav>  
+
+    <main>
+        <div  class ="LogInContainer">
+        <article class ="logIn">
+            
+            <form  action="LogIn.php" method="post">
+                <h1>Log In</h1>
+                <div >
+                <label for="email">Email:</label>  <!-- name of form input-->
+                <input type="email" id="email" name="email" required> <!-- type of form input-->
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <input type="submit" value="Log In">
+                </div>
+            </form>
+        </article>
+
+        <article class ="addPost">
+            <form  action="AddPost.php" method="post">
+                <h1>Add Post</h1>
+                <div class ="">
+                <label for="postTitle">Add Title</label>
+                <input type="text" id="postTitle" name="postTitle" required>
+                <br>
+                <label for="postText">Add Text</label>
+                <input type="text" id="postText" name="postText" required>
+                <br>
+                <input type="submit" value="Post">
+                <input type="submit" value="Preview">
+                </div>
+            </form>
+        </article>
+        </div>  
+    </main> 
+
+    <!-- Footer-->
+    <footer class="footer">
+        <p><a href="https://www.linkedin.com/in/tama-guisado-okumura-0b8048262">LinkedIn</a></p>
+        <p><a href="CV.HTML">CV</a></p>
+       
+    </footer>
+</body>
+</html>

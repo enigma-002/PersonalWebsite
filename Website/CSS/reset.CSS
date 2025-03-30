@@ -1,0 +1,10 @@
+
+
+body,aside,img,article div,h1,h2,h3,h4,h5,h6,p,a,ul,li,nav,label,fofigcaption,figure,footer,header,main,section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}
